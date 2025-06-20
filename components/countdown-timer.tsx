@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 
 // Define countdown start and end dates
-const COUNTDOWN_START = new Date("2025-06-08T00:00:00Z");
-const COUNTDOWN_END = new Date("2025-10-08T00:00:00Z");
+const COUNTDOWN_START = new Date("2025-06-18T00:00:00Z");
+const COUNTDOWN_END = new Date("2026-06-18T00:00:00Z");
 
 interface TimeLeft {
   days: number;
