@@ -1,6 +1,6 @@
 # 🕒 Event Countdown Timer
 
-A beautiful, modern countdown timer built with Next.js and React that tracks time remaining until an event while showing progress since the start date.
+A beautiful, modern countdown timer built with Next.js, Shadcn UI, and Tailwind CSS.
 
 ## ✨ Features
 
