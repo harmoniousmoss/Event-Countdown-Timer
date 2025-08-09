@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 
 // Define countdown start and end dates
-const COUNTDOWN_START = new Date("2025-08-04T12:42:00Z"); // 19:42 WIB (UTC+7) on 4 August 2025
-const COUNTDOWN_END = new Date("2025-12-31T12:42:00Z"); // 19:42 WIB (UTC+7) on 31 December 2025
+const COUNTDOWN_START = new Date("2025-08-04T12:42:00Z"); // 19:42 WIB (UTC+7)
+const COUNTDOWN_END = new Date("2025-12-31T12:42:00Z"); // 19:42 WIB (UTC+7)
 
 interface TimeLeft {
   days: number;
@@ -208,7 +208,7 @@ export default function CountdownTimer() {
             Time Remaining
           </h2>
           <p className="text-purple-200/80 text-lg">
-            Event starts: {formatDate(COUNTDOWN_END)}
+            Event end: {formatDate(COUNTDOWN_END)}
           </p>
         </div>
 
